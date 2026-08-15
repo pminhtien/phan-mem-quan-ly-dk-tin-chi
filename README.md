@@ -9,11 +9,12 @@
 - [Cấu Trúc Dự Án](#cấu-trúc-dự-án)
 - [Công Nghệ Sử Dụng](#công-nghệ-sử-dụng)
 
-## 🎯 Giới Thiệu
+## Giới Thiệu
+
 
 Hệ thống đăng ký tín chỉ trực tuyến giúp sinh viên quản lý việc đăng ký môn học một cách thuận tiện.
 
-### Lợi Ích Chính
+### Lợi ích chính
 
 - ✅ Giao diện Windows Forms thân thiện, dễ sử dụng
 - ✅ Kiểm tra xung đột lịch học tự động
@@ -21,7 +22,7 @@ Hệ thống đăng ký tín chỉ trực tuyến giúp sinh viên quản lý vi
 - ✅ Xem lịch sử đăng ký các học kỳ trước
 - ✅ Quản lý hiệu quả bằng SQL Server
 
-## ⚡ Tính Năng Chính
+## Tính Năng Chính
 
 ### 1. Đăng Ký Tín Chỉ
 - Chọn môn học theo chương trình đào tạo (CTDT)
@@ -44,7 +45,7 @@ Hệ thống đăng ký tín chỉ trực tuyến giúp sinh viên quản lý vi
 - Thống kê số môn và tín chỉ đã hoàn thành
 - Theo dõi trạng thái (Đạt/Trượt)
 
-## 📥 Cài Đặt
+## Cài Đặt
 
 ### Bước 1: Clone Repository
 
@@ -62,8 +63,7 @@ strConn = "Data Source=YOUR_SERVER\SQLEXPRESS;" + "Initial Catalog=QuanLySinhVie
 3. Nhấn __F5__ để chạy ứng dụng
 
 
-## 📁 Cấu Trúc Dự Án
-## Cấu trúc dự án
+## Cấu Trúc Dự Án
 
 ```text
 BTL_QLDKTC/
@@ -89,7 +89,7 @@ BTL_QLDKTC/
 | `frmHelp.cs` | Hướng dẫn sử dụng phần mềm |
 | `Program.cs` | Điểm khởi động của ứng dụng |
 | `App.config` | Chứa các cấu hình của ứng dụng |
-## 🛠️ Công Nghệ Sử Dụng
+## Công Nghệ Sử Dụng
 
 - **Ngôn Ngữ:** C# 7.3
 - **Framework:** .NET Framework 4.8
