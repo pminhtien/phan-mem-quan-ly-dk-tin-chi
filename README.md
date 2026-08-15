@@ -101,7 +101,6 @@ BTL_QLDKTC/
 ├── frmCourses.cs
 ├── frmCoursesDetail.cs
 ├── frmHelp.cs
-├── Program.cs
 └── App.config
 ```
 
@@ -115,7 +114,6 @@ BTL_QLDKTC/
 | `frmCourses.cs` | Giao diện chính quản lý đăng ký tín chỉ |
 | `frmCoursesDetail.cs` | Hiển thị chi tiết lớp học phần |
 | `frmHelp.cs` | Hướng dẫn sử dụng phần mềm |
-| `Program.cs` | Điểm khởi động của ứng dụng |
 | `App.config` | Chứa các cấu hình của ứng dụng |
 ## Công Nghệ Sử Dụng
 
