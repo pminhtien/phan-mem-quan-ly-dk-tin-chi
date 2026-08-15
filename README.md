@@ -125,7 +125,7 @@ BTL_QLDKTC/
 - **Database:** SQL Server
 - **IDE:** Visual Studio 2022
 
-## ⚠️ Disclaimer / Lưu ý
+## ⚠️ Lưu ý
   
 Sản phẩm này được phát triển như một dự án học tập / minh họa. Mục đích chính là để học và demo chức năng; do đó mã nguồn có thể còn thiếu sót, chưa được tối ưu hoặc chưa phù hợp để triển khai trực tiếp vào môi trường sản xuất. 
 
