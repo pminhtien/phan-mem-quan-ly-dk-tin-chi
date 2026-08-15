@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7B8FE4E1-E48E-4525-972E-0C2660EFA634}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BTL_QLDKTC</RootNamespace>
+    <AssemblyName>BTL_QLDKTC</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MaterialSkin, Version=2.3.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialSkin.2.2.3.1\lib\net48\MaterialSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ModernUI.2.0.0\lib\net20\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAdminSemester.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdminSemester.Designer.cs">
+      <DependentUpon>frmAdminSemester.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCourses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCourses.Designer.cs">
+      <DependentUpon>frmCourses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCoursesDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCoursesDetail.Designer.cs">
+      <DependentUpon>frmCoursesDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHelp.Designer.cs">
+      <DependentUpon>frmHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHistory.Designer.cs">
+      <DependentUpon>frmHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMainStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainStudent.Designer.cs">
+      <DependentUpon>frmMainStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMainManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainManager.Designer.cs">
+      <DependentUpon>frmMainManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQLCTDT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQLCTDT.Designer.cs">
+      <DependentUpon>frmQLCTDT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQLGiangVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQLGiangVien.Designer.cs">
+      <DependentUpon>frmQLGiangVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQLKhoaVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQLKhoaVien.Designer.cs">
+      <DependentUpon>frmQLKhoaVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQLLopHocPhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQLLopHocPhan.Designer.cs">
+      <DependentUpon>frmQLLopHocPhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQLMonHoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQLMonHoc.Designer.cs">
+      <DependentUpon>frmQLMonHoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SinhVienInfo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\SemesterDeterminer.cs" />
+    <EmbeddedResource Include="frmCourses.resx">
+      <DependentUpon>frmCourses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCoursesDetail.resx">
+      <DependentUpon>frmCoursesDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHelp.resx">
+      <DependentUpon>frmHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHistory.resx">
+      <DependentUpon>frmHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainStudent.resx">
+      <DependentUpon>frmMainStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainManager.resx">
+      <DependentUpon>frmMainManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout_1.png" />
+    <None Include="Resources\history_icon_1.png" />
+    <None Include="Resources\logout_icon_2.png" />
+    <None Include="Resources\book_icon_provip_1.png" />
+    <None Include="Resources\question_2_1_test.png" />
+    <None Include="Resources\book_2.png" />
+    <None Include="Resources\NEU.png" />
+    <None Include="Resources\NEU.jpg" />
+    <None Include="Resources\setting_2.png" />
+    <None Include="Resources\setting.png" />
+    <None Include="Resources\notifications_2.png" />
+    <None Include="Resources\reporting.png" />
+    <None Include="Resources\analytics-reporting-line-icon-vector.png" />
+    <None Include="Resources\customer.png" />
+    <None Include="Resources\windows-settings-icon-29.jpg" />
+    <None Include="Resources\shopping-cart3.png" />
+    <None Include="Resources\order1.png" />
+    <None Include="Resources\notifications.jpg" />
+    <None Include="Resources\customer.jpg" />
+    <None Include="Resources\analytics-reporting-line-icon-vector.jpg" />
+    <None Include="Resources\shopping-cart2.png" />
+    <None Include="Resources\order.png" />
+    <None Include="Resources\shopping-cart-icon-free-vector.jpg" />
+    <None Include="Resources\shopping-cart1.png" />
+    <None Include="Resources\shopping-cart.png" />
+    <None Include="Resources\shopping_cart_3.jpg" />
+    <None Include="Resources\shopping_cart_2.png" />
+    <None Include="Resources\shopping cart.jpg" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
