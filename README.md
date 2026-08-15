@@ -5,6 +5,7 @@
 
 - [Giới Thiệu](#giới-thiệu)
 - [Tính Năng Chính](#tính-năng-chính)
+- [Giao Diện Ứng Dụng](#giao-diện-ứng-dụng)
 - [Cài Đặt](#cài-đặt)
 - [Cấu Trúc Dự Án](#cấu-trúc-dự-án)
 - [Công Nghệ Sử Dụng](#công-nghệ-sử-dụng)
@@ -12,7 +13,7 @@
 ## Giới Thiệu
 
 
-Hệ thống đăng ký tín chỉ trực tuyến giúp sinh viên quản lý việc đăng ký môn học một cách thuận tiện.
+Hệ thống đăng ký tín chỉ trực tuyến giúp sinh viên đăng ký môn học một cách thuận tiện.
 
 ### Lợi ích chính
 
@@ -20,7 +21,6 @@ Hệ thống đăng ký tín chỉ trực tuyến giúp sinh viên quản lý vi
 - ✅ Kiểm tra xung đột lịch học tự động
 - ✅ Theo dõi tổng số tín chỉ đã đăng ký
 - ✅ Xem lịch sử đăng ký các học kỳ trước
-- ✅ Quản lý hiệu quả bằng SQL Server
 
 ## Tính Năng Chính
 
@@ -44,6 +44,34 @@ Hệ thống đăng ký tín chỉ trực tuyến giúp sinh viên quản lý vi
 - Xem tất cả đăng ký trong các học kỳ trước
 - Thống kê số môn và tín chỉ đã hoàn thành
 - Theo dõi trạng thái (Đạt/Trượt)
+
+## Giao Diện Ứng Dụng
+### Đăng nhập
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/47f7876c-b9ec-418b-99cd-0f8edbc4f16e" />
+
+---
+
+### Đăng ký tín chỉ
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/71d16ed7-9046-4aa6-af14-34227c6c91a0" />
+
+---
+
+### Chi tiết lớp học phần
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3775fbfb-15b7-480b-a0f3-e8ffb89c986f" />
+
+---
+
+### Lịch sử đăng ký
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3e7c28b6-9743-42f9-a277-a049d8575524" />
+
+---
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/12e93ebe-392b-4edf-be89-84ab9b34912b" />
+
+
+---
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d2c925ab-f142-40dc-b923-8cf7684ffc35" />
+
+---
 
 ## Cài Đặt
 
@@ -100,3 +128,4 @@ BTL_QLDKTC/
 ## ⚠️ Disclaimer / Lưu ý
   
 Sản phẩm này được phát triển như một dự án học tập / minh họa. Mục đích chính là để học và demo chức năng; do đó mã nguồn có thể còn thiếu sót, chưa được tối ưu hoặc chưa phù hợp để triển khai trực tiếp vào môi trường sản xuất. 
+
